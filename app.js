@@ -20,7 +20,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-foods.push("pizza", "cheeseburger");
+foods.push('pizza', 'cheeseburger');
 
 console.log('Exercise 2 result:', foods);
 
@@ -32,7 +32,7 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
-foods.unshift("taco")
+foods.unshift('taco')
 
 console.log('Exercise 3 result:', foods);
 
@@ -59,6 +59,18 @@ Exercise 5: Insert an element between two others
 Complete Exercise 5 in the space below:
 */
 
-foods.splice(2, 0, "tofu");
+foods.splice(2, 0, 'tofu');
 
 console.log('Exercise 5 result:', foods);
+
+/*
+Exercise 6: Replace elements
+
+1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+
+Complete Exercise 6 in the space below:
+*/
+
+foods.splice(1, 1, 'sushi', 'cupcake');
+
+console.log('Exercise 6 result:', foods);
